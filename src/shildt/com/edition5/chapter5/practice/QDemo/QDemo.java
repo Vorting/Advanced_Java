@@ -1,7 +1,7 @@
 package shildt.com.edition5.chapter5.practice.QDemo;
 
 
-import com.edition5.chapter5.practice.Queue.Queue;
+import shildt.com.edition5.chapter5.practice.Queue.Queue;
 
 public class QDemo {
 
