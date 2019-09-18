@@ -6,4 +6,5 @@ public interface Series {
     void rest();
 
     void setStart(int x);
+
 }
