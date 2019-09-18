@@ -1,4 +1,4 @@
-package shildt.edition5.chapter8.theory.book_pack;
+package shildt.edition5.chapter8.book.book_pack;
 
 public class UseBook {
     public static void main(String[] args) {

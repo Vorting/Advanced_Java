@@ -1,4 +1,4 @@
-package shildt.edition5.chapter8.theory.bookpackext;
+package shildt.edition5.chapter8.book.bookpackext;
 
 public class ProtectedDemo {
     public static void main(String[] args) {

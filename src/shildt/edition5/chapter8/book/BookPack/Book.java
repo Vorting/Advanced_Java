@@ -1,4 +1,4 @@
-package shildt.edition5.chapter8.theory.BookPack;
+package shildt.edition5.chapter8.book.BookPack;
 
 public class Book {
     protected String author;

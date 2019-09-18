@@ -1,7 +1,7 @@
-package shildt.edition5.chapter8.theory.bookpackext;
+package shildt.edition5.chapter8.book.bookpackext;
 
 
-class ExtBook extends shildt.edition5.chapter8.theory.BookPack.Book {
+class ExtBook extends shildt.edition5.chapter8.book.BookPack.Book {
     private String publisher;
 
     public ExtBook(String t, String a, int d, String p) {
