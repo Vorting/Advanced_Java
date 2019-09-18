@@ -1,9 +1,9 @@
-package shildt.edition5.chapter8.book.book_pack;
+package shildt.edition5.chapter8.theory.book.BookPack;
 
 public class Book {
-    private String author;
-    private String title;
-    private int pubDate;
+    protected String author;
+    protected String title;
+    protected int pubDate;
 
     public Book(String t, String a, int d) {
         this.title = t;
@@ -17,4 +17,5 @@ public class Book {
         System.out.println(pubDate);
         System.out.println();
     }
+
 }

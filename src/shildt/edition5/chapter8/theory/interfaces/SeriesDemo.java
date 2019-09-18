@@ -9,7 +9,7 @@ public class SeriesDemo {
         }
 
         System.out.println("\nResetting");
-        ob.rest();
+        ob.reset();
         for (int j = 0; j < 5; j++) {
             System.out.println("Next value is " + ob.getNext());
         }

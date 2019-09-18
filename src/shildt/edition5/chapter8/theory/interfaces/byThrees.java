@@ -1,6 +1,7 @@
 package shildt.edition5.chapter8.theory.interfaces;
 
-public class ByThrees implements Series {
+
+class ByThrees implements Series {
     int start;
     int val;
 
@@ -13,8 +14,8 @@ public class ByThrees implements Series {
         val += 3;
         return val;
     }
-    
-    public void rest() {
+
+    public void reset() {
         start = 0;
         val = 0;
     }
@@ -23,5 +24,4 @@ public class ByThrees implements Series {
         start = x;
         val = x;
     }
-
 }

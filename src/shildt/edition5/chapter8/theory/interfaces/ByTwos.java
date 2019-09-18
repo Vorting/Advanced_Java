@@ -1,14 +1,12 @@
 package shildt.edition5.chapter8.theory.interfaces;
 
-public class ByTwos implements Series {
+public class ByTwos {
     int start;
     int val;
-    int prev;
 
     ByTwos() {
         start = 0;
         val = 0;
-        prev = -2;
     }
 
 
@@ -17,19 +15,13 @@ public class ByTwos implements Series {
         return val;
     }
 
-    public void rest() {
+    public void reset() {
         start = 0;
         val = 0;
-        prev = -2;
     }
 
     public void setStart(int x) {
         start = x;
         val = x;
-        prev = x - 2;
-    }
-
-    int getPrevious() {
-        return prev;
     }
 }
