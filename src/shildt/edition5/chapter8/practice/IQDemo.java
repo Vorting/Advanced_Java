@@ -119,6 +119,8 @@ class FixedQueue implements ICharQ {
         }
         putloc = getloc = 0;
     }
+
+
 }
 
 class CircularQueue implements ICharQ {
