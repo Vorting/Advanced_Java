@@ -1,4 +1,4 @@
-package shildt.edition5.chapter9.practice.theory;
+package shildt.edition5.chapter9.theory;
 
 public class ExcDemo1 {
     public static void main(String[] args) {
@@ -7,9 +7,11 @@ public class ExcDemo1 {
         //Создание блока try.
         try {
             System.out.println("Before exception is generated.");
+
             //попытка обратиться за границы массива.
-            nums[7] = 10;
+            nums[0] = 10;
             System.out.println("this won`t be displayed");
+
             //перехват исключения в связи с обращением за границы массива
         } catch (ArrayIndexOutOfBoundsException exc) {
             System.out.println("Index out-of-bounds!");
