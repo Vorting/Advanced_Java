@@ -45,7 +45,7 @@ public class MyLinkedList {
         Node temp = head;
 
         while (temp != null) {
-            if ((currentIndex + 1) == index) {
+            if (currentIndex == index - 1) {
                 temp.setNext(temp.getNext().getNext());
                 size--;
                 return;
