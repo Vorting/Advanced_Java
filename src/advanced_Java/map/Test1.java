@@ -14,6 +14,10 @@ public class Test1 {
         System.out.println(map);
 
         map.put(3,"Другое значение для ключа три");
+
         System.out.println(map);
+
+        System.out.println(map.get(1));
+        System.out.println(map.get(10));
     }
 }
