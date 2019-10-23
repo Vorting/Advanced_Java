@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Test1 {
+public class SetsDemo {
 
     public static void main(String[] args) {
 
