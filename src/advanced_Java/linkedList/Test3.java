@@ -1,7 +1,4 @@
-package advanced_Java.LinkedList;
-
-import java.util.LinkedList;
-import java.util.List;
+package advanced_Java.linkedList;
 
 public class Test3 {
     public static void main(String[] args) {

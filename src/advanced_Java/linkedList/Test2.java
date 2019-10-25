@@ -1,4 +1,4 @@
-package advanced_Java.LinkedList;
+package advanced_Java.linkedList;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -13,7 +13,6 @@ public class Test2 {
         элементов в начало листа, то лучше использовать LinkedList, потому что это будет
         гораздо более эффективно
          */
-
         List<Integer> arrayList = new ArrayList<>();
         // [7] [6] [1] [2] [3] [4]
         /*
