@@ -8,7 +8,7 @@ public class Test2 {
         Map<Integer, String> map = new HashMap<>();
 
         /* элементы в HashMap не имеют какого-либо порядка
-        т.е. упорядоченность єлементов не гарантируется
+        т.е. упорядоченность элементов не гарантируется
         порядок вывода может меняться, каждый раз при запуске программы
          */
 
@@ -25,6 +25,5 @@ public class Test2 {
         for (Map.Entry<Integer, String> entry : map.entrySet()) {
             System.out.println(entry.getKey() + ":" + entry.getValue());
         }
-
     }
 }

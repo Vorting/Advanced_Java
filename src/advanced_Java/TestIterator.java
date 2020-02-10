@@ -30,7 +30,7 @@ public class TestIterator {
 
             }
         } catch (NullPointerException e) {
-            System.out.println("Exception trown : " + e);
+            System.out.println("Exception thrown : " + e);
         }
     }
 }

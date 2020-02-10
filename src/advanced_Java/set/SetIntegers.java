@@ -6,7 +6,6 @@ import java.util.Set;
 public class SetIntegers {
     public static void main(String[] args) {
         Set<Integer> set1 = new HashSet<>();
-
         set1.add(0);
         set1.add(1);
         set1.add(2);
@@ -15,7 +14,6 @@ public class SetIntegers {
         set1.add(5);
 
         Set<Integer> set2 = new HashSet<>();
-
         set2.add(2);
         set2.add(3);
         set2.add(4);
@@ -29,7 +27,7 @@ public class SetIntegers {
 
         union.addAll(set2);
 
-        System.out.println(union);
+        System.out.println("union: " + union);
 
         // intersection - пересечение множеств
 
@@ -37,15 +35,13 @@ public class SetIntegers {
 
         intersection.retainAll(set2);
 
-        System.out.println(intersection);
+        System.out.println("intersection: " + intersection);
 
         // difference - разность множеств
         Set<Integer> difference = new HashSet<>(set1);
 
         difference.removeAll(set2);
 
-        System.out.println(difference);
-
-
+        System.out.println("difference: " + difference);
     }
 }
